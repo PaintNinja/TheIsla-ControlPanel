@@ -39,10 +39,10 @@
 				<div class="item">
 					Server
 					<div class="menu">
-					<a class="item" href="http://minetrends.com/dashboard"><i class="dashboard icon"></i>Dashboard</a>
+					<a class="item" onClick="return ChangePageDash()"><i class="dashboard icon"></i>Dashboard</a>
 					<a class="item" href="Wave:,Minecenter,22"><i class="terminal icon"></i>Console</a>
-					<a class="item" href="http://minetrends.com/statistics/serverhealth"><i class="signal icon"></i>Status</a>
-					<a class="item" href="http://minetrends.com/statistics/players"><i class="users icon"></i>Players</a>
+					<a class="item" onClick="return ChangePageStatus()"><i class="signal icon"></i>Status</a>
+					<a class="item" onClick="return ChangePagePlayers()"><i class="users icon"></i>Players</a>
 					</div>
 				</div>
 				<div class="item">
@@ -58,9 +58,9 @@
 				</a>
 			</div>
 		</div>
-		<div class="column">
+		<div class="thirteen wide column">
 			<p>The Isla control panel is currently in very early development. Use the links on the right to use the control panel for now...</p>
-				<!--<iframe id="contentframe" src="http://www.bing.com" frameborder="0" marginheight="0" marginwidth="0" height="500px" width="100%"></iframe>-->
+				<iframe id="contentframe" src="http://minetrends.com/dashboard" frameborder="0" marginheight="0" marginwidth="0" height="500px" width="100%" onload="resize_iframe()"></iframe>
 		</div>
 	</div>
 </body>
