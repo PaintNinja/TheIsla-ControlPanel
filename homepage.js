@@ -12,7 +12,7 @@ iFrameObject.src = newPageStatus;
 }
 function ChangePagePlayers() {
 var iFrameObject = document.getElementById(iFrameID);
-iFrameObject.src = newPageStatus;
+iFrameObject.src = newPagePlayer;
 }
 <!--
 function resize_iframe()
