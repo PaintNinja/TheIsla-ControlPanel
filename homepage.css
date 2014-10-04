@@ -94,6 +94,10 @@ p a {
   margin-top: 0rem
 }
 
+.segment.attached.top.ui {
+  border-radius: 0px;
+}
+
 /*******************************
           Responsive
 *******************************/
