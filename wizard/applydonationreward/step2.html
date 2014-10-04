@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <!-- Site Properities -->
-  <title>Guide - The Isla CP</title>
+  <title>Wizard - The Isla CP</title>
 
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet'>
 
@@ -17,8 +17,9 @@
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
   <script src="packaged/javascript/semantic.js"></script>
   <script src="homepage.js"></script>
-  
-  <link rel="prev" href="step3.html">
+
+  <link rel="prev" href="step1.html">
+  <link rel="next" href="step3.html">
 </head>
 <body>
 <!--Header-->
@@ -30,13 +31,13 @@
 			<i class="right arrow icon divider"></i>
 		</a>
 		<a class="item" id="sidebar">
-			<i class="help icon"></i> Guides
+			<i class="magic icon"></i> Wizard
 		</a>
 		<a class="item" id="sidebar">
 			<i class="right arrow icon divider"></i>
 		</a>
 		<a class="active item" id="sidebar">
-			<i class="gift icon"></i> Check if someone has donated
+			<i class="gift icon"></i> Apply donation reward
 		</a>
 		<div class="right menu">
 			<div class="item">The Isla CP <i>v2</i></div>
@@ -53,25 +54,25 @@
 						<p>Progress</p>
 					</div>
 					<div class="ui attached fluid segment">
-						<div class="ui four steps">
+						<div class="ui three steps">
 							<div class="ui disabled step">Step 1</div>
-							<div class="ui disabled step">Step 2</div>
+							<div class="ui active step">Step 2 - Set the appropriate rank</div>
 							<div class="ui disabled step">Step 3</div>
-							<div class="ui active step">Step 4 - See if I've already done it</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="ui top attached fluid segment">
-				<p>Check if someone has donated</p>
+				<p>Apply donation reward</p>
 			</div>
 			<div class="ui attached fluid segment">
-				<h2>See if I've already done it</h2>
-				<p>At the bottom of the message, check if I have replied to it. If I have already replied to it,
-				then you don't have to apply the donation reward(s) as I've already done it.</p>
-				<p>However, if I have not replied to it, you'll be needing to apply the reward(s) yourself.</p>
+				<h2>Set the appropriate rank</h2>
+				<ul>
+					<li><b>VIP: </b><code>pex user USERNAME group set VIP</code></li>
+					<li><b>Legend: </b><code>pex user USERNAME group set Legend</code></li>
+				</ul>
 				<div class="ui basic right floated segment">
-					<a href="step3.html">
+					<a href="step1.html">
 						<div class="ui right animated button">
 							<div class="visible content">Back</div>
 							<div class="hidden content">
@@ -79,11 +80,11 @@
 							</div>
 						</div>
 					</a>
-					<a href="../../homepage.html">
-						<div class="ui animated fade button">
-							<div class="visible content">Finish</div>
+					<a href="step3.html">
+						<div class="ui animated button">
+							<div class="visible content">Next</div>
 							<div class="hidden content">
-								<i class="checkered flag icon"></i>
+								<i class="right arrow icon"></i>
 							</div>
 						</div>
 					</a>
