@@ -86,6 +86,14 @@ p a {
   background-color: transparent;
 }
 
+.menu.ui {
+  border-radius: 0.0rem
+}
+
+.grid.ui > .column {
+  margin-top: 0rem
+}
+
 /*******************************
           Responsive
 *******************************/
