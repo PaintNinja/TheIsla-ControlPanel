@@ -13,12 +13,28 @@
 
   <link rel="stylesheet" href="packaged/css/semantic.css">
   <link rel="stylesheet" href="homepage.css">
-  <link rel="icon" href="/favicon.ico">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
   <script src="packaged/javascript/semantic.js"></script>
-  <script src="homepage.js"></script>
+  
+  <meta name="msapplication-navbutton-color" content="rgb(220,186,116)" />
+  
+  <!-- ==Jump lists== -->
+  <!-- Server category -->
+  <meta name="msapplication-task" content="name=Dashboard; action-uri=http://minetrends.com/dashboard; icon-uri=/jumplists/favicon.ico" />
+  <meta name="msapplication-task" content="name=Console; action-uri=Wave:,TheIsla-LaunchConsole,22; icon-uri=/jumplists/favicon.ico" />
+  <meta name="msapplication-task" content="name=Status; action-uri=http://minetrends.com/statistics/serverhealth; icon-uri=/jumplists/favicon.ico" />
+  <meta name="msapplication-task" content="name=Status; action-uri=http://minetrends.com/statistics/players; icon-uri=/jumplists/favicon.ico" />
+  <!-- Community category -->
+  <meta name="msapplication-task" content="name=Website; action-uri=http://theisla.enjin.com/; icon-uri=/jumplists/favicon.ico" />
+  <meta name="msapplication-task" content="name=Forum; action-uri=http://theisla.enjin.com/forum; icon-uri=/jumplists/favicon.ico" />
+  <meta name="msapplication-task" content="name=Members; action-uri=http://theisla.enjin.com/members; icon-uri=/jumplists/favicon.ico" />
+  <meta name="msapplication-task" content="name=Inbox; action-uri=http://theisla.enjin.com/dashboard/messages; icon-uri=/jumplists/favicon.ico" />
+  <!-- Wizard category -->
+  <meta name="msapplication-task" content="name=Check if someone has donated; action-uri=http://paintninja.github.io/TheIsla-ControlPanel/wizard/checkifsomeonehasdonated/step1.html; icon-uri=/jumplists/favicon.ico" />
+  <meta name="msapplication-task" content="name=Apply donation reward; action-uri=http://paintninja.github.io/TheIsla-ControlPanel/wizard/applydonationreward/step1.html; icon-uri=/jumplists/favicon.ico" />
 </head>
 <body id="home">
 <!--Header-->
@@ -73,7 +89,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="twelve wide column">
+		<div class="twelve wide column" style="padding-right: 0px; padding-left: 0px;">
 			<div class="ui three column grid">
 				<div class="column">
 					<div class="ui top attached fluid segment">
@@ -112,6 +128,18 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="ui top attached teal fluid segment">
+				<i class="lightbulb icon"></i><b><i>Tips!</i></b>
+			</div>
+			<div class="ui attached fluid segment">
+				<p>Here you may find new tips every once in a long while to help you make the most of the control panel and also make it easier to use. :)</p>
+				<br/>
+				<u>Get to CP stuff without even opening the CP</u>
+				<p>This is a quick and easy trick that'll let you access stuff such as the console, server dashboard, community website, forums, tutorials
+				and just about everything the CP has without even opening the CP!</p>
+				<p>All you have to do is <b>right click</b> the island icon rather than left clicking it. Once you've done that, you'll have a list just like
+				the menu on the left in the control panel.</p>
 			</div>
 		</div>
 	</div>

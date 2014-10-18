@@ -98,6 +98,10 @@ p a {
   border-radius: 0px;
 }
 
+.grid.ui > .row > .column.wide.twelve, .grid.ui > .row.column > .column.wide.twelve, .grid.ui > .column.wide.twelve, .grid.column.ui > .column.wide.twelve {
+  width: 80%;
+}
+
 /*******************************
           Responsive
 *******************************/
