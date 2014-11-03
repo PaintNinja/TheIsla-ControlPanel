@@ -65,27 +65,42 @@
 				<div class="item">
 					Server
 					<div class="menu">
-					<a class="item" href="http://minetrends.com/dashboard"><i class="dashboard icon"></i>Dashboard</a>
-					<a class="item" href="Wave:,TheIsla-LaunchConsole,22"><i class="terminal icon"></i>Console</a>
-					<a class="item" href="http://minetrends.com/statistics/serverhealth"><i class="signal icon"></i>Status</a>
-					<a class="item" href="http://minetrends.com/statistics/players"><i class="users icon"></i>Players</a>
+						<div class="ui simple dropdown item">
+						 Info <i class="dropdown icon"></i>
+							<div class="menu">
+								<a class="item" href="http://minetrends.com/dashboard"><i class="dashboard icon"></i> Dashboard</a>
+								<a class="item" href="http://minetrends.com/statistics/serverhealth"><i class="signal icon"></i> Status</a>
+								<a class="item" href="http://minetrends.com/statistics/players"><i class="users icon"></i> Players</a>
+							</div>
+						</div>
+						<a class="item" href="Wave:,TheIsla-LaunchConsole,22"><i class="terminal icon"></i>Console</a>
 					</div>
 				</div>
 				<div class="item">
 					Community
 					<div class="menu">
-					<a class="item" href="http://theisla.enjin.com"><i class="home icon"></i>Website</a>
-					<a class="item" href="http://theisla.enjin.com/forum"><i class="comment icon"></i>Forum</a>
-					<a class="item" href="http://theisla.enjin.com/members"><i class="users icon"></i>Members</a>
-					<a class="item" href="http://theisla.enjin.com/dashboard/messages"><i class="mail icon"></i>Inbox</a>
+						<a class="item" href="http://theisla.enjin.com"><i class="home icon"></i>Website</a>
+						<a class="item" href="http://theisla.enjin.com/forum"><i class="comment icon"></i>Forum</a>
+						<a class="item" href="http://theisla.enjin.com/members"><i class="users icon"></i>Members</a>
+						<a class="item" href="http://theisla.enjin.com/dashboard/messages"><i class="mail icon"></i>Inbox</a>
 					</div>
 				</div>
 				<div class="item">
 					Wizard
 					<div class="menu">
-					<a class="item" href="wizard/checkifsomeonehasdonated/step1.html"><i class="gift icon"></i> Check if someone has donated</a>
-					<a class="item" href="wizard/applydonationreward/step1.html"><i class="gift icon"></i> Apply donation reward</a>
-					<a class="item" href="wizard/findpotentiallydupedorhackedingamemoney-console/step1.html"><i class="money icon"></i> Identify duped/hacked money - console</a>
+						<div class="ui simple dropdown item">
+						 Donations <i class="dropdown icon"></i>
+							<div class="menu">
+								<a class="item" href="wizard/checkifsomeonehasdonated/step1.html"><i class="gift icon"></i> Check if someone has donated</a>
+								<a class="item" href="wizard/applydonationreward/step1.html"><i class="gift icon"></i> Apply donation reward</a>
+							</div>
+						</div>
+						<div class="ui simple dropdown item">
+						 Economy <i class="dropdown icon"></i>
+							<div class="menu">
+								<a class="item" href="wizard/findpotentiallydupedorhackedingamemoney-console/step1.html"><i class="money icon"></i> Identify duped/hacked money - console</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -98,10 +113,10 @@
 					</div>
 					<div class="ui attached fluid segment">
 						<div class="ui labeled icon menu">
-							<a class="item" href="http://minetrends.com/dashboard"><i class="dashboard icon"></i>Dashboard</a>
-							<a class="item" href="Wave:,TheIsla-LaunchConsole,22"><i class="terminal icon"></i>Console</a>
-							<a class="item" href="http://minetrends.com/statistics/serverhealth"><i class="signal icon"></i>Status</a>
-							<a class="item" href="http://minetrends.com/statistics/players"><i class="users icon"></i>Players</a>
+							<a class="item" href="http://minetrends.com/dashboard"><i title="View the server statistics dashboard" class="dashboard icon"></i>Dashboard</a>
+							<a class="item" href="Wave:,TheIsla-LaunchConsole,22"><i title="Access the server console" class="terminal icon"></i>Console</a>
+							<a class="item" href="http://minetrends.com/statistics/serverhealth"><i title="Check the server status" class="signal icon"></i>Status</a>
+							<a class="item" href="http://minetrends.com/statistics/players"><i title="View server statistics regarding players" class="users icon"></i>Players</a>
 						</div>
 					</div>
 				</div>
@@ -111,10 +126,10 @@
 					</div>
 					<div class="ui attached fluid segment">
 						<div class="ui labeled icon menu">
-							<a class="item" href="http://theisla.enjin.com"><i class="home icon"></i>Website</a>
-							<a class="item" href="http://theisla.enjin.com/forum"><i class="comment icon"></i>Forum</a>
-							<a class="item" href="http://theisla.enjin.com/members"><i class="users icon"></i>Members</a>
-							<a class="item" href="http://theisla.enjin.com/dashboard/messages"><i class="mail icon"></i>Inbox</a>
+							<a class="item" href="http://theisla.enjin.com"><i title="Go to The Isla website" class="home icon"></i>Website</a>
+							<a class="item" href="http://theisla.enjin.com/forum"><i title="Go to The Isla forum" class="comment icon"></i>Forum</a>
+							<a class="item" href="http://theisla.enjin.com/members"><i title="View all site members" class="users icon"></i>Members</a>
+							<a class="item" href="http://theisla.enjin.com/dashboard/messages"><i title="Open your inbox" class="mail icon"></i>Inbox</a>
 						</div>
 					</div>
 				</div>
@@ -142,11 +157,15 @@
 				negative feedback, it'll still help me make it better.</p>
 				<p>You may also ask me on Skype to see some of the alternative designs and layouts that are availible. Sure, it's not <i>that</i> important,
 				but it might be less boring or strain your eyes less if you like the UI/design more.</p>
-				<!--<u>Get to CP stuff without even opening the CP</u>
+				<br/>
+				<h3 class="ui dividing header">
+				 Older tips
+				</h3>
+				<u>Get to CP stuff without even opening the CP</u>
 				<p>This is a quick and easy trick that'll let you access stuff such as the console, server dashboard, community website, forums, tutorials
 				and just about everything the CP has without even opening the CP!</p>
 				<p>All you have to do is <b>right click</b> the island icon rather than left clicking it. Once you've done that, you'll have a list just like
-				the menu on the left in the control panel.</p>-->
+				the menu on the left in the control panel.</p>
 			</div>
 		</div>
 	</div>
